@@ -8,7 +8,7 @@ app.use(cors())
 
 
 function getRandomTeam () {
-    let teamSelector = Math.floor(Math.random() * 14)
+    let teamSelector = Math.floor(Math.random() * (data.length -1))
     return teamSelector;
   }
 
