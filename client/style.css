@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  margin: 0;
 }
 
 .whole-nav {
@@ -31,9 +32,11 @@ a.store {
 }
 
 .navbar-right {
+  padding-top: 6px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  text-align: center;
 }
 
 a.gmail {
@@ -120,12 +123,13 @@ button:hover {
 }
 
 .empty-space {
-  margin-top: 200px;
+  margin-top: 212px;
 }
 
 .footer {
   background-color: #f2f2f2;
   font-size: 15px;
+  width: 100%;
 }
 
 .uk {
@@ -135,7 +139,7 @@ button:hover {
   color: #70757a;
 }
 .secondline-footer {
-  padding: 0 30px;
+  padding: 15px 30px;
   display: flex;
   justify-content: space-between;
   color: #70757a;
@@ -154,7 +158,6 @@ button:hover {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-top: 16px;
 }
 
 .third-foot ul {
