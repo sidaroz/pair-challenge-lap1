@@ -166,3 +166,12 @@ button:hover {
   list-style: none;
   right: 50px;
 }
+
+div a {
+  text-decoration: none;
+  color: #70757a;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
