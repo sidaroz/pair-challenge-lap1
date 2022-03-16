@@ -100,9 +100,24 @@ input:focus {
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  padding-top: 20px;
 }
 
 button {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  opacity: 70%;
   margin: 10px 5px;
   padding: 8px 20px;
+}
+
+button:hover {
+  border: 1px solid #8888887f;
+  box-shadow: 0px 1px 0px rgba(33, 33, 33, 0.2);
+}
+
+.empty-space {
+  margin-top: 200px;
 }
