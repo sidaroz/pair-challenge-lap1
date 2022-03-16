@@ -6,8 +6,14 @@ const takeMeToMyResults = function (e) {
   e.preventDefault();
   const userInput = searchBar.value;
   fetch(`http://localhost:3000/${userInput}`)
-    .then((resp) => resp.json())
-    .then((data) => window.open(data.link, '_self'));
+    .then((resp) => resp.json())    
+    .then((data) => {
+      if (userInput === ""){
+        window.open('http://localhost:3000')
+      } else {
+        window.open(data.link, '_self')
+      }
+    }) 
 };
 
 const randomResults = function (e) {
