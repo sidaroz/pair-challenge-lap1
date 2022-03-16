@@ -1,8 +1,10 @@
 const express = require('express')
 const app = express()
 const data = require('./data')
+const cors = require('cors')
 
 app.use(express.json())
+app.use(cors())
 
 
 function getRandomTeam () {
