@@ -2,15 +2,20 @@
   box-sizing: border-box;
 }
 
+.whole-nav {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
 .navbar-left {
   display: flex;
   flex-direction: row;
-  align-items: center;
+  justify-content: space-between;
   padding: 6px;
 }
 
 a.about {
-  display: inline-block;
   padding: 5px;
   margin: 0 5px;
   color: #202124;
@@ -19,7 +24,6 @@ a.about {
 }
 
 a.store {
-  display: inline-block;
   padding: 5px;
   margin: 0 5px;
   color: #202124;
@@ -27,14 +31,11 @@ a.store {
 }
 
 .navbar-right {
-  margin-left: 70%;
-  display: inline-block;
-  flex-direction: row;
-  flex-grow: 1;
+  display: flex;
+  justify-content: space-between;
 }
 
 a.gmail {
-  display: inline-block;
   padding: 5px;
   margin: 0 5px;
   color: #202124;
@@ -42,7 +43,6 @@ a.gmail {
 }
 
 a.images {
-  display: inline-block;
   padding: 5px;
   margin: 0 5px;
   color: #202124;
@@ -120,4 +120,48 @@ button:hover {
 
 .empty-space {
   margin-top: 200px;
+}
+
+.footer {
+  background-color: #f2f2f2;
+  font-size: 15px;
+}
+
+.uk {
+  padding: 15px 30px;
+  border-bottom: 1px solid #dadce0;
+  font-size: 15px;
+  color: #70757a;
+}
+.secondline-footer {
+  padding: 0 30px;
+  display: flex;
+  justify-content: space-between;
+  color: #70757a;
+}
+
+.first-foot ul {
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style: none;
+  gap: 20px;
+}
+
+.second-foot {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 16px;
+}
+
+.third-foot ul {
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  list-style: none;
+  right: 50px;
 }
