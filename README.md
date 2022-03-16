@@ -1,1 +1,1 @@
-Start of our pair project
+Start of our pair project.
