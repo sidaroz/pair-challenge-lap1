@@ -3,6 +3,10 @@
   margin: 0;
 }
 
+body {
+  height: 100vh;
+}
+
 .whole-nav {
   display: flex;
   flex-wrap: nowrap;
@@ -57,7 +61,6 @@ div.logo {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 100%;
   margin-top: auto;
 }
 
@@ -123,7 +126,7 @@ button:hover {
 }
 
 .empty-space {
-  margin-top: 212px;
+  margin-top: calc(100vh - 31%);
 }
 
 .footer {
