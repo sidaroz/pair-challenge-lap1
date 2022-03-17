@@ -125,11 +125,9 @@ button:hover {
   box-shadow: 0px 1px 0px rgba(33, 33, 33, 0.2);
 }
 
-.empty-space {
-  margin-top: calc(100vh - 30.8%);
-}
-
 .footer {
+  position: fixed;
+  bottom: 0;
   background-color: #f2f2f2;
   font-size: 15px;
   width: 100%;
